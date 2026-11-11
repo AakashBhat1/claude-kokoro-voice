@@ -1,0 +1,11 @@
+{
+  "name": "claude-kokoro-voice",
+  "owner": { "name": "AakashBhat1" },
+  "plugins": [
+    {
+      "name": "kokoro-voice",
+      "source": "./",
+      "description": "Reads Claude's final reply aloud with the local Kokoro voice"
+    }
+  ]
+}

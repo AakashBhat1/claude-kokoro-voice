@@ -1,0 +1,16 @@
+{
+  "name": "kokoro-voice",
+  "version": "0.2.0",
+  "description": "/enable reads Claude's final reply aloud with the local Kokoro voice (no code, no tool output); /enable--close shuts it down and frees its memory",
+  "author": { "name": "AakashBhat1" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "voiceFolder": {
+      "type": "string",
+      "title": "Voice folder",
+      "description": "Full path of the folder holding speak_server.py, its models/ and .venv (and .venv-gpu on Windows). See the README.",
+      "required": false
+    }
+  }
+}

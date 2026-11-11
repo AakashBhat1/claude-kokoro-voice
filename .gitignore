@@ -1,0 +1,7 @@
+# Downloaded voice models and Python environments stay on each computer.
+voice/models/
+voice/.venv/
+voice/.venv-gpu/
+__pycache__/
+*.log
+.DS_Store

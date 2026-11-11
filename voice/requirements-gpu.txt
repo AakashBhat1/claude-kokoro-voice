@@ -1,0 +1,11 @@
+# GPU (DirectML) environment. kokoro-onnx itself must be installed with --no-deps,
+# because it would pull in the CPU onnxruntime, which clashes with onnxruntime-directml:
+#   uv venv --python 3.12 .venv-gpu
+#   uv pip install --python .venv-gpu\Scripts\python.exe -r requirements-gpu.txt
+#   uv pip install --python .venv-gpu\Scripts\python.exe --no-deps kokoro-onnx==0.6.1
+onnxruntime-directml==1.24.4
+espeakng-loader>=0.2.4
+numpy>=2.0.2
+phonemizer>=3.4.0
+sounddevice
+onnx
