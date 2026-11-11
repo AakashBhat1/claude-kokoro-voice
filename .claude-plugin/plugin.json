@@ -1,6 +1,6 @@
 {
   "name": "kokoro-voice",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "/enable reads Claude's final reply aloud with the local Kokoro voice (no code, no tool output); /enable--close shuts it down and frees its memory",
   "author": { "name": "AakashBhat1" },
   "license": "MIT",
